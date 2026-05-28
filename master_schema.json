@@ -1,0 +1,285 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "UOB Master Data Schema",
+  "description": "JSON Schema for the 11 Master Data catalogs (io.uob.catalog.*). Generated from 11 CSV files containing 456 unique entries.",
+  "type": "object",
+  "properties": {
+    "activityType": {
+      "type": "array",
+      "description": "Collection of activityType records",
+      "items": {
+        "$ref": "#/definitions/activityType"
+      }
+    },
+    "artCategory": {
+      "type": "array",
+      "description": "Collection of artCategory records",
+      "items": {
+        "$ref": "#/definitions/artCategory"
+      }
+    },
+    "artCoCode": {
+      "type": "array",
+      "description": "Collection of artCoCode records",
+      "items": {
+        "$ref": "#/definitions/artCoCode"
+      }
+    },
+    "artCompany": {
+      "type": "array",
+      "description": "Collection of artCompany records",
+      "items": {
+        "$ref": "#/definitions/artCompany"
+      }
+    },
+    "artMedium": {
+      "type": "array",
+      "description": "Collection of artMedium records",
+      "items": {
+        "$ref": "#/definitions/artMedium"
+      }
+    },
+    "artistStyle": {
+      "type": "array",
+      "description": "Collection of artistStyle records",
+      "items": {
+        "$ref": "#/definitions/artistStyle"
+      }
+    },
+    "country": {
+      "type": "array",
+      "description": "Collection of country records",
+      "items": {
+        "$ref": "#/definitions/country"
+      }
+    },
+    "gender": {
+      "type": "array",
+      "description": "Collection of gender records",
+      "items": {
+        "$ref": "#/definitions/gender"
+      }
+    },
+    "movement": {
+      "type": "array",
+      "description": "Collection of movement records",
+      "items": {
+        "$ref": "#/definitions/movement"
+      }
+    },
+    "orientation": {
+      "type": "array",
+      "description": "Collection of orientation records",
+      "items": {
+        "$ref": "#/definitions/orientation"
+      }
+    },
+    "status": {
+      "type": "array",
+      "description": "Collection of status records",
+      "items": {
+        "$ref": "#/definitions/status"
+      }
+    }
+  },
+  "definitions": {
+    "activityType": {
+      "type": "object",
+      "description": "Catalog: io.uob.catalog.activityType (5 entries)",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Lookup key"
+        },
+        "name": {
+          "type": "string",
+          "description": "Display value"
+        }
+      },
+      "required": [
+        "id",
+        "name"
+      ]
+    },
+    "artCategory": {
+      "type": "object",
+      "description": "Catalog: io.uob.catalog.artCategory (26 entries)",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Lookup key"
+        },
+        "name": {
+          "type": "string",
+          "description": "Display value"
+        }
+      },
+      "required": [
+        "id",
+        "name"
+      ]
+    },
+    "artCoCode": {
+      "type": "object",
+      "description": "Catalog: io.uob.catalog.artCoCode (11 entries)",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Lookup key"
+        },
+        "name": {
+          "type": "string",
+          "description": "Display value"
+        }
+      },
+      "required": [
+        "id",
+        "name"
+      ]
+    },
+    "artCompany": {
+      "type": "object",
+      "description": "Catalog: io.uob.catalog.artCompany (11 entries)",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Lookup key"
+        },
+        "name": {
+          "type": "string",
+          "description": "Display value"
+        }
+      },
+      "required": [
+        "id",
+        "name"
+      ]
+    },
+    "artMedium": {
+      "type": "object",
+      "description": "Catalog: io.uob.catalog.artMedium (192 entries)",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Lookup key"
+        },
+        "name": {
+          "type": "string",
+          "description": "Display value"
+        }
+      },
+      "required": [
+        "id",
+        "name"
+      ]
+    },
+    "artistStyle": {
+      "type": "object",
+      "description": "Catalog: io.uob.catalog.artistStyle (2 entries)",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Lookup key"
+        },
+        "name": {
+          "type": "string",
+          "description": "Display value"
+        }
+      },
+      "required": [
+        "id",
+        "name"
+      ]
+    },
+    "country": {
+      "type": "object",
+      "description": "Catalog: io.uob.catalog.country (195 entries)",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Lookup key"
+        },
+        "name": {
+          "type": "string",
+          "description": "Display value"
+        }
+      },
+      "required": [
+        "id",
+        "name"
+      ]
+    },
+    "gender": {
+      "type": "object",
+      "description": "Catalog: io.uob.catalog.gender (3 entries)",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Lookup key"
+        },
+        "name": {
+          "type": "string",
+          "description": "Display value"
+        }
+      },
+      "required": [
+        "id",
+        "name"
+      ]
+    },
+    "movement": {
+      "type": "object",
+      "description": "Catalog: io.uob.catalog.movement (2 entries)",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Lookup key"
+        },
+        "name": {
+          "type": "string",
+          "description": "Display value"
+        }
+      },
+      "required": [
+        "id",
+        "name"
+      ]
+    },
+    "orientation": {
+      "type": "object",
+      "description": "Catalog: io.uob.catalog.orientation (3 entries)",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Lookup key"
+        },
+        "name": {
+          "type": "string",
+          "description": "Display value"
+        }
+      },
+      "required": [
+        "id",
+        "name"
+      ]
+    },
+    "status": {
+      "type": "object",
+      "description": "Catalog: io.uob.catalog.status (6 entries)",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Lookup key"
+        },
+        "name": {
+          "type": "string",
+          "description": "Display value"
+        }
+      },
+      "required": [
+        "id",
+        "name"
+      ]
+    }
+  }
+}
