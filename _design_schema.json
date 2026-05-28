@@ -1,0 +1,61 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CouchDB Row — _design",
+  "description": "Schema for _design rows. Generated from 1 documents.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "key": {
+      "type": "string"
+    },
+    "value": {
+      "type": "object",
+      "properties": {
+        "rev": {
+          "type": "string"
+        }
+      }
+    },
+    "doc": {
+      "type": "object",
+      "properties": {
+        "_id": {
+          "type": "string"
+        },
+        "_rev": {
+          "type": "string"
+        },
+        "~version": {
+          "type": "string"
+        },
+        "_attachments": {
+          "type": "object",
+          "properties": {
+            "valueBytes": {
+              "type": "object",
+              "properties": {
+                "content_type": {
+                  "type": "string"
+                },
+                "revpos": {
+                  "type": "integer"
+                },
+                "digest": {
+                  "type": "string"
+                },
+                "length": {
+                  "type": "integer"
+                },
+                "stub": {
+                  "type": "boolean"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CouchDB Row — participant",
+  "description": "Schema for io.uob.resources.participant rows. Generated from 8 documents.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "key": {
+      "type": "string"
+    },
+    "value": {
+      "type": "object",
+      "properties": {
+        "rev": {
+          "type": "string"
+        }
+      }
+    },
+    "doc": {
+      "type": "object",
+      "properties": {
+        "_id": {
+          "type": "string"
+        },
+        "_rev": {
+          "type": "string"
+        },
+        "activityLog": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "createdBy": {
+                "type": "object",
+                "properties": {
+                  "firstName": {
+                    "type": "string"
+                  },
+                  "identifier": {
+                    "type": "string"
+                  },
+                  "lastName": {
+                    "type": "string"
+                  }
+                }
+              },
+              "createdDate": {
+                "type": "string"
+              },
+              "identifier": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "data": {
+          "type": "object",
+          "properties": {
+            "email": {
+              "type": "string"
+            },
+            "firstName": {
+              "type": "string"
+            },
+            "lastName": {
+              "type": "string"
+            },
+            "region": {
+              "type": "string"
+            },
+            "role": {
+              "type": "string"
+            }
+          }
+        },
+        "identifier": {
+          "type": "string"
+        },
+        "metadata": {
+          "type": "object",
+          "properties": {
+            "createdBy": {
+              "type": "object",
+              "properties": {
+                "firstName": {
+                  "type": "string"
+                },
+                "identifier": {
+                  "type": "string"
+                },
+                "lastName": {
+                  "type": "string"
+                }
+              }
+            },
+            "createdDate": {
+              "type": "string"
+            },
+            "docType": {
+              "type": "string"
+            },
+            "status": {
+              "type": "string"
+            },
+            "updatedBy": {
+              "type": "object",
+              "properties": {
+                "firstName": {
+                  "type": "string"
+                },
+                "identifier": {
+                  "type": "string"
+                },
+                "lastName": {
+                  "type": "string"
+                }
+              }
+            },
+            "updatedDate": {
+              "type": "string"
+            }
+          }
+        },
+        "~version": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

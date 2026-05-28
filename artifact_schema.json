@@ -1,0 +1,313 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CouchDB Row — artifact",
+  "description": "Schema for io.uob.resources.artifact rows. Generated from 2916 documents.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "key": {
+      "type": "string"
+    },
+    "value": {
+      "type": "object",
+      "properties": {
+        "rev": {
+          "type": "string"
+        }
+      }
+    },
+    "doc": {
+      "type": "object",
+      "properties": {
+        "_id": {
+          "type": "string"
+        },
+        "_rev": {
+          "type": "string"
+        },
+        "activityLog": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "createdBy": {
+                "type": "object",
+                "properties": {
+                  "firstName": {
+                    "type": "string"
+                  },
+                  "identifier": {
+                    "type": "string"
+                  },
+                  "lastName": {
+                    "type": "string"
+                  }
+                }
+              },
+              "createdDate": {
+                "type": "string"
+              },
+              "identifier": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "data": {
+          "type": "object",
+          "properties": {
+            "arn": {
+              "type": "string"
+            },
+            "artCategory": {
+              "type": "string"
+            },
+            "artCondition": {
+              "type": "string"
+            },
+            "artConditionComment": {
+              "type": "string"
+            },
+            "artDepth": {
+              "type": "string"
+            },
+            "artFrameCondition": {
+              "type": "string"
+            },
+            "artFrameDepth": {
+              "type": "string"
+            },
+            "artFrameHeight": {
+              "type": "string"
+            },
+            "artFrameWidth": {
+              "type": "string"
+            },
+            "artHeight": {
+              "type": "string"
+            },
+            "artMaxValue": {
+              "type": "string"
+            },
+            "artMedium": {
+              "type": "string"
+            },
+            "artMinValue": {
+              "type": "string"
+            },
+            "artMountCondition": {
+              "type": "string"
+            },
+            "artOrientation": {
+              "type": "string"
+            },
+            "artTags": {
+              "type": "string"
+            },
+            "artValuationNotes": {
+              "type": "string"
+            },
+            "artValuedBy": {
+              "type": "string"
+            },
+            "artValuedDate": {
+              "type": "string"
+            },
+            "artWidth": {
+              "type": "string"
+            },
+            "artist": {
+              "type": "object",
+              "properties": {
+                "identifier": {
+                  "type": "string"
+                },
+                "nickName": {
+                  "type": "string"
+                }
+              }
+            },
+            "artworkAwards": {
+              "type": "string"
+            },
+            "artworkWriteup": {
+              "type": "string"
+            },
+            "coCode": {
+              "type": "string"
+            },
+            "company": {
+              "type": "string"
+            },
+            "descriptiveNotes": {
+              "type": "string"
+            },
+            "giftedBy": {
+              "type": "string"
+            },
+            "images": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "contentType": {
+                    "type": "string"
+                  },
+                  "createdDate": {
+                    "type": "string"
+                  },
+                  "name": {
+                    "type": "string"
+                  },
+                  "url": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "isGift": {
+              "type": "boolean"
+            },
+            "location": {
+              "type": "object",
+              "properties": {
+                "address": {
+                  "type": "string"
+                },
+                "building": {
+                  "type": "string"
+                },
+                "city": {
+                  "type": "string"
+                },
+                "countryISOCode": {
+                  "type": "string"
+                },
+                "floor": {
+                  "type": "string"
+                },
+                "identifier": {
+                  "type": "string"
+                },
+                "office": {
+                  "type": "string"
+                },
+                "postalCode": {
+                  "type": "string"
+                },
+                "room": {
+                  "type": "string"
+                },
+                "state": {
+                  "type": "string"
+                }
+              }
+            },
+            "status": {
+              "type": "string"
+            },
+            "thumbnail": {
+              "type": "object",
+              "properties": {
+                "contentType": {
+                  "type": "string"
+                },
+                "createdDate": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                }
+              }
+            },
+            "title": {
+              "type": "string"
+            },
+            "year": {
+              "type": "string"
+            },
+            "acquisitionDate": {
+              "type": "string"
+            },
+            "attachments": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "contentType": {
+                    "type": "string"
+                  },
+                  "createdDate": {
+                    "type": "string"
+                  },
+                  "name": {
+                    "type": "string"
+                  },
+                  "url": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "identifier": {
+          "type": "string"
+        },
+        "metadata": {
+          "type": "object",
+          "properties": {
+            "createdBy": {
+              "type": "object",
+              "properties": {
+                "firstName": {
+                  "type": "string"
+                },
+                "identifier": {
+                  "type": "string"
+                },
+                "lastName": {
+                  "type": "string"
+                }
+              }
+            },
+            "createdDate": {
+              "type": "string"
+            },
+            "docType": {
+              "type": "string"
+            },
+            "status": {
+              "type": "string"
+            },
+            "updatedBy": {
+              "type": "object",
+              "properties": {
+                "firstName": {
+                  "type": "string"
+                },
+                "identifier": {
+                  "type": "string"
+                },
+                "lastName": {
+                  "type": "string"
+                }
+              }
+            },
+            "updatedDate": {
+              "type": "string"
+            }
+          }
+        },
+        "~version": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

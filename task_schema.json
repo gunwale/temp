@@ -1,0 +1,448 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CouchDB Row — task",
+  "description": "Schema for io.uob.resources.task rows. Generated from 11851 documents.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "key": {
+      "type": "string"
+    },
+    "value": {
+      "type": "object",
+      "properties": {
+        "rev": {
+          "type": "string"
+        }
+      }
+    },
+    "doc": {
+      "type": "object",
+      "properties": {
+        "_id": {
+          "type": "string"
+        },
+        "_rev": {
+          "type": "string"
+        },
+        "activityLog": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "action": {
+                "type": "string"
+              },
+              "createdDate": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "data": {
+          "type": "object",
+          "properties": {
+            "assignedTo": {
+              "type": "object",
+              "properties": {
+                "firstName": {
+                  "type": "string"
+                },
+                "identifier": {
+                  "type": "string"
+                },
+                "lastName": {
+                  "type": "string"
+                }
+              }
+            },
+            "jobIdentifier": {
+              "type": "string"
+            },
+            "payload": {
+              "type": [
+                "object",
+                "null"
+              ],
+              "properties": {
+                "data": {
+                  "type": "object",
+                  "properties": {
+                    "arn": {
+                      "type": "string"
+                    },
+                    "artCategory": {
+                      "type": "string"
+                    },
+                    "artCondition": {
+                      "type": "string"
+                    },
+                    "artConditionComment": {
+                      "type": "string"
+                    },
+                    "artDepth": {
+                      "type": "string"
+                    },
+                    "artFrameCondition": {
+                      "type": "string"
+                    },
+                    "artFrameDepth": {
+                      "type": "string"
+                    },
+                    "artFrameHeight": {
+                      "type": "string"
+                    },
+                    "artFrameWidth": {
+                      "type": "string"
+                    },
+                    "artHeight": {
+                      "type": "string"
+                    },
+                    "artMaxValue": {
+                      "type": "string"
+                    },
+                    "artMedium": {
+                      "type": "string"
+                    },
+                    "artMinValue": {
+                      "type": "string"
+                    },
+                    "artMountCondition": {
+                      "type": "string"
+                    },
+                    "artOrientation": {
+                      "type": "string"
+                    },
+                    "artTags": {
+                      "type": "string"
+                    },
+                    "artValuationNotes": {
+                      "type": "string"
+                    },
+                    "artValuedBy": {
+                      "type": "string"
+                    },
+                    "artValuedDate": {
+                      "type": "string"
+                    },
+                    "artWidth": {
+                      "type": "string"
+                    },
+                    "artist": {
+                      "type": "object",
+                      "properties": {
+                        "identifier": {
+                          "type": "string"
+                        },
+                        "nickName": {
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "artworkAwards": {
+                      "type": "string"
+                    },
+                    "artworkWriteup": {
+                      "type": "string"
+                    },
+                    "coCode": {
+                      "type": "string"
+                    },
+                    "company": {
+                      "type": "string"
+                    },
+                    "descriptiveNotes": {
+                      "type": "string"
+                    },
+                    "images": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "contentType": {
+                            "type": "string"
+                          },
+                          "createdDate": {
+                            "type": "string"
+                          },
+                          "name": {
+                            "type": "string"
+                          },
+                          "url": {
+                            "type": "string"
+                          }
+                        }
+                      }
+                    },
+                    "location": {
+                      "type": "object",
+                      "properties": {
+                        "address": {
+                          "type": "string"
+                        },
+                        "building": {
+                          "type": "string"
+                        },
+                        "city": {
+                          "type": "string"
+                        },
+                        "countryISOCode": {
+                          "type": "string"
+                        },
+                        "floor": {
+                          "type": "string"
+                        },
+                        "identifier": {
+                          "type": "string"
+                        },
+                        "office": {
+                          "type": "string"
+                        },
+                        "postalCode": {
+                          "type": "string"
+                        },
+                        "room": {
+                          "type": "string"
+                        },
+                        "state": {
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "status": {
+                      "type": "string"
+                    },
+                    "thumbnail": {
+                      "type": "object",
+                      "properties": {
+                        "contentType": {
+                          "type": "string"
+                        },
+                        "createdDate": {
+                          "type": "string"
+                        },
+                        "name": {
+                          "type": "string"
+                        },
+                        "url": {
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "title": {
+                      "type": "string"
+                    },
+                    "year": {
+                      "type": "string"
+                    },
+                    "arc": {
+                      "type": "string"
+                    },
+                    "artistAwards": {
+                      "type": "string"
+                    },
+                    "artistEducation": {
+                      "type": "string"
+                    },
+                    "artistResidency": {
+                      "type": "string"
+                    },
+                    "bio": {
+                      "type": "string"
+                    },
+                    "contactAddress": {
+                      "type": "string"
+                    },
+                    "contactEmail": {
+                      "type": "string"
+                    },
+                    "contactNumber": {
+                      "type": "string"
+                    },
+                    "contactWebsite": {
+                      "type": "string"
+                    },
+                    "countryISOCode": {
+                      "type": "string"
+                    },
+                    "gender": {
+                      "type": "string"
+                    },
+                    "nickName": {
+                      "type": "string"
+                    },
+                    "acquisitionDate": {
+                      "type": "string"
+                    },
+                    "address": {
+                      "type": "string"
+                    },
+                    "building": {
+                      "type": "string"
+                    },
+                    "city": {
+                      "type": "string"
+                    },
+                    "floor": {
+                      "type": "string"
+                    },
+                    "loc": {
+                      "type": "string"
+                    },
+                    "office": {
+                      "type": "string"
+                    },
+                    "postalCode": {
+                      "type": "string"
+                    },
+                    "room": {
+                      "type": "string"
+                    },
+                    "state": {
+                      "type": "string"
+                    },
+                    "giftedBy": {
+                      "type": "string"
+                    },
+                    "isGift": {
+                      "type": "boolean"
+                    },
+                    "contactPerson": {
+                      "type": "string"
+                    },
+                    "attachments": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "contentType": {
+                            "type": "string"
+                          },
+                          "createdDate": {
+                            "type": "string"
+                          },
+                          "name": {
+                            "type": "string"
+                          },
+                          "url": {
+                            "type": "string"
+                          }
+                        }
+                      }
+                    },
+                    "email": {
+                      "type": "string"
+                    },
+                    "firstName": {
+                      "type": "string"
+                    },
+                    "lastName": {
+                      "type": "string"
+                    },
+                    "region": {
+                      "type": "string"
+                    },
+                    "role": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "identifier": {
+                  "type": "string"
+                },
+                "notes": {
+                  "type": "string"
+                },
+                "postedDate": {
+                  "type": "string"
+                },
+                "decision": {
+                  "type": "string"
+                },
+                "resources": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "reviewer": {
+                  "type": "object",
+                  "properties": {
+                    "identifier": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            },
+            "status": {
+              "type": "string"
+            },
+            "type": {
+              "type": "string"
+            }
+          }
+        },
+        "identifier": {
+          "type": "string"
+        },
+        "metadata": {
+          "type": "object",
+          "properties": {
+            "createdBy": {
+              "type": "object",
+              "properties": {
+                "firstName": {
+                  "type": "string"
+                },
+                "identifier": {
+                  "type": "string"
+                },
+                "lastName": {
+                  "type": "string"
+                }
+              }
+            },
+            "createdDate": {
+              "type": "string"
+            },
+            "docType": {
+              "type": "string"
+            },
+            "linkedTo": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "updatedBy": {
+              "type": "object",
+              "properties": {
+                "firstName": {
+                  "type": "string"
+                },
+                "identifier": {
+                  "type": "string"
+                },
+                "lastName": {
+                  "type": "string"
+                }
+              }
+            },
+            "updatedDate": {
+              "type": "string"
+            }
+          }
+        },
+        "~version": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

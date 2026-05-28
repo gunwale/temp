@@ -1,0 +1,123 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CouchDB Row — job",
+  "description": "Schema for io.uob.resources.job rows. Generated from 5917 documents.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "key": {
+      "type": "string"
+    },
+    "value": {
+      "type": "object",
+      "properties": {
+        "rev": {
+          "type": "string"
+        }
+      }
+    },
+    "doc": {
+      "type": "object",
+      "properties": {
+        "_id": {
+          "type": "string"
+        },
+        "_rev": {
+          "type": "string"
+        },
+        "activityLog": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "createdDate": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "data": {
+          "type": "object",
+          "properties": {
+            "assignedTo": {
+              "type": "object",
+              "properties": {
+                "firstName": {
+                  "type": "string"
+                },
+                "identifier": {
+                  "type": "string"
+                },
+                "lastName": {
+                  "type": "string"
+                }
+              }
+            },
+            "notes": {
+              "type": "string"
+            },
+            "status": {
+              "type": "string"
+            },
+            "type": {
+              "type": "string"
+            }
+          }
+        },
+        "identifier": {
+          "type": "string"
+        },
+        "metadata": {
+          "type": "object",
+          "properties": {
+            "createdBy": {
+              "type": "object",
+              "properties": {
+                "firstName": {
+                  "type": "string"
+                },
+                "identifier": {
+                  "type": "string"
+                },
+                "lastName": {
+                  "type": "string"
+                }
+              }
+            },
+            "createdDate": {
+              "type": "string"
+            },
+            "docType": {
+              "type": "string"
+            },
+            "updatedBy": {
+              "type": "object",
+              "properties": {
+                "firstName": {
+                  "type": "string"
+                },
+                "identifier": {
+                  "type": "string"
+                },
+                "lastName": {
+                  "type": "string"
+                }
+              }
+            },
+            "updatedDate": {
+              "type": "string"
+            }
+          }
+        },
+        "~version": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
